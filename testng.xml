@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="Portal.Listeners"/>
+
+
+    </listeners>
+
+
+    <test name="LoginAsOwner">
+        <classes>
+            <class name="Portal.LoginAsOwner" />
+        </classes>
+    </test>
+
+    <test name="LoginAsAgent">
+        <classes>
+            <class name="Portal.LoginAsAgent" />
+        </classes>
+    </test>
+</suite>

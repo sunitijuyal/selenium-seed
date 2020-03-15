@@ -1,0 +1,7 @@
+.idea
+screenshots
+logs
+*.log
+*.iml
+target
+
